@@ -80,7 +80,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: rgb(30, 61, 201);
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -106,7 +106,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid rgb(30, 61, 201);
 }
 
 .container .profile-data .info h1{
@@ -119,6 +119,7 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
+  margin-bottom: 8px;
 }
 
 /* EVENTS */
@@ -162,8 +163,8 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
-  color: #fff
+  background-color:rgb(30, 61, 201);
+  color: #fff;
 }
 
 .container .profile-data .repositories p{
@@ -172,7 +173,7 @@ main {
 
 .container .profile-data .repositories .features{
   
-  background-color: rgb(113, 78, 211);
+  background-color: rgb(1, 6, 7);
   margin: 2px;
   border-radius: 5px;
   padding: 5px;
@@ -216,21 +217,22 @@ main {
     display: inline-block;
     margin-top: 5px;
   }
-}
 
-@media (max-width: 425px) {
   main {
     padding: 15% 0;    
   }
 
   .container .profile-data .info img{
     margin-bottom: 20px;
+    width: 75%;
+    margin: 10% auto;
   }
 
-  .container .profile-data .info img,
+  
   .container .profile-data .info .data
   {
     width: 100%;
     padding: 0;
   }
 }
+
